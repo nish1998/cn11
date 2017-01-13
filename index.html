@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> 11th_class
+</title>
+<link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Exo+2" rel="stylesheet">
+<link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
+<link rel="stylesheet" href="animate.min.css">
+<link rel="stylesheet" type="text/css" href="csshake.min.css">
+<link rel="stylesheet" type="text/css" href="http://csshake.surge.sh/csshake.min.css">
+<link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+    $("#flip").click(function(){
+        $("#panel").slideToggle("slow");
+    });
+});
+$(document).ready(function(){
+    $("#flip2").click(function(){
+        $("#panel2").slideToggle("slow");
+    });
+});
+$(document).ready(function(){
+    $("#flip3").click(function(){
+        $("#panel3").slideToggle("slow");
+    });
+});
+$(document).ready(function(){
+    $("#flip4").click(function(){
+        $("#panel4").slideToggle("slow");
+    });
+});
+</script>
+
+<style> 
+#panel, #flip,#panel2, #flip2,#panel3, #flip3,#panel4, #flip4 {
+    padding: 5px;
+    
+    background-color: rgba(51,133,255,0.5);
+ 
+    
+}
+
+#panel,#panel2,#panel3,#panel4 {
+    padding: 50px;
+    display: none;
+  
+}
+
+/* 
+ 
+<div id="flip">Click to slide the panel down or up</div>
+<div id="panel">Hello world!</div> */
+
+
+
+
+#fixed{
+	position:fixed;
+	bottom:0px;
+	width:300px;
+    right:0;
+}
+.menu ul{
+	position: relative;
+	background-color: rgba(51,133,255,0.9);
+	border-style: outset;
+	border-width: 2px 0;
+	margin-top: -15px;
+	flex: 1;
+	
+}
+
+.menu li{
+
+    
+	display:inline;
+	font-family: 'Exo 2', sans-serif;
+	color:slategrey;
+	font-size: 40px;
+	
+	margin:30px;
+	transition-duration: 0.4s;
+
+
+}
+
+
+h1
+{
+	text-align: center;
+	width:1087px;
+	height:150px;
+	padding: 120px;
+	margin-top:-135px;
+	border-style: solid;
+	border-color: blue;
+	border-width: 0px 0.3px;
+	color:#99ffff;
+	font-family:'Exo 2', sans-serif;
+	background-color:rgba(51, 79, 128, 0.89);
+	font-size: 70px;
+	-webkit-clip-path: polygon(22% 16%, 74% 33%, 100% 30%, 100% 70%, 69% 73%, 41% 55%, 0% 70%, 0% 30%);
+clip-path: polygon(22% 16%, 74% 33%, 100% 30%, 100% 70%, 69% 73%, 41% 55%, 0% 70%, 0% 30%);
+
+
+
+}
+h2{
+
+border: 2px dashed #fff;
+	margin-top: -140px;
+	color:#99ffff;
+	text-align: center;
+	font-family: 'Architects Daughter', cursive;
+	background-color: rgba(51, 79, 128, 0.89);
+	padding-bottom: 1px;
+	padding: 10px;
+	box-shadow: 0 0 0 4px rgba(51, 79, 128, 0.89), 2px 1px 6px 4px rgba(10, 10, 0, 0.8);
+	
+}
+
+
+li {
+	font-family: 'Exo 2', sans-serif;
+	color:rgb(255,33,33);
+	font-size: 34px;
+}
+.subject ul,ol
+{
+	font-family: 'Exo 2', sans-serif;
+	color:white;
+	font-size: 40px;
+	background-color: rgba(51,133,255,0.8);
+border: 2px dashed #fff;
+box-shadow: 0 0 0 4px rgba(51, 133, 255, 0.8), 2px 1px 6px 4px rgba(10, 10, 0, 0.8);
+	width:350px;
+	margin:20px;
+	transition-duration: 0.4s;
+	border-radius: 2px;
+    
+}
+
+
+#fb {
+	
+	color:#1aff1a;
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Safari */
+    transform: rotate(90deg);
+  font-size:40px;
+  font-family: 'Exo 2', sans-serif;
+}
+
+.feed {
+	padding: 10px;
+  padding: 10px;
+	width: 50px;
+	height: 270px;
+	right: 0px;
+	top: 350px;
+	position: fixed;
+	background: rgb(0, 0, 128);
+	-webkit-clip-path: polygon(16% 0, 0 12%, 0 90%, 29% 90%, 41% 100%, 100% 100%, 100% 0);
+clip-path: polygon(16% 0, 0 12%, 0 90%, 29% 90%, 41% 100%, 100% 100%, 100% 0);
+
+}
+
+#feed2{
+    margin-top: -48px;
+    margin-left: 39px;
+
+}
+
+
+body
+{
+	background-image: url("http://wallpapercave.com/wp/mtHN9DI.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Baloo+Thambi');
+
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+/* .menu li:hover{
+	background: blue;
+} */
+
+
+/* unvisited link */
+a:link {
+    color: red;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: orange;
+}
+
+/* mouse over link */
+a:hover {
+    color: white;
+}
+
+/* selected link */
+a:active {
+    color: yellow;
+}
+#panel #flip:hover{
+	background-color: blue;
+}
+.subject ul:hover{
+	background-color: blue;
+}
+
+
+</style>
+</head>
+<body>
+<header>
+<h1 class="shake-opacity"><center>11th Class ChemNotes</ceter></h1></header>
+<h2>"Chemistry begins in the stars. The stars are the source of the chemical elements, which are the building blocks of matter and the core of our subject.</h2>
+<div class="menu"> 
+<ul>
+<li><a href=" "><i class="ion-android-home"></i>  </a></li>
+<li><a href="  "> Resources </a></li>
+<li><a href="  "> About </a></li>
+</ul>
+</div>
+<div class="subject">
+<ul>
+<div id="flip">Physical Chemistry </div>
+
+<div id="panel"> <li><a href=" ">Gaseous State</a> </li>
+<li><a href="https://drive.google.com/file/d/0BzIdou2mziu5bnh0cElGa2VqdFE/view?usp=sharing">Thermodynamics</a></li>
+<li><a href=" ">Chemical Equillibrium</li>
+<li><a href=" ">Ionic Equillibrium</a></li></div>
+</ul>
+<br>
+
+<ul>
+<div id="flip2">Organic Chemistry  </div>
+<div id="panel2">
+<li><a href="https://drive.google.com/file/d/0BzIdou2mziu5QTRxOXB4eGpJN3M/view?usp=sharing">General Organic Chemistry</a></li>
+<li><a href="  ">Hydrocarbons</a></li></div>
+</ul>
+<br>
+
+<ul>
+<div id="flip3">Inorganic Chemistry</div>
+<div id="panel3">
+<li><a href=" ">Chemical Bonding</a></li>
+<li><a href=" ">s-block</a> </li>
+<li><a href=" ">p-block</a></li></div>
+
+</ul>
+<br>
+
+<ul>
+<div id="flip4">Resources</div>
+<div id="panel4"><li>GCA lectures</li>
+<li>Pearson chemistry</li>
+<li>NCERT</li>
+<li>Solmons Frhyl by MS Chouhan</li></div>
+</ul>
+</div>
+<br>
+
+<div class="feed"><div href="" id="fb" class="ion-ios-paper"><div id="feed2"><a href="" >FEEDBACK</a></div></div></div>
